@@ -43,7 +43,7 @@ class Reference extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.getRefers();
-    }, 1000);
+    }, 1500);
   } // 생명주기 함수
 
 
