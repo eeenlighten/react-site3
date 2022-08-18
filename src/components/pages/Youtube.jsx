@@ -33,7 +33,7 @@ function Youtube() {
     redirect: 'follow'
   };
   
-  fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&q=webstoryboy&key=AIzaSyCREIKL7RLN5Pyl736t0BDtVL6f7bwD_-s",
+  fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&q=koreanenglishman&key=AIzaSyCREIKL7RLN5Pyl736t0BDtVL6f7bwD_-s",
   requestOptions
   )
   .then((response) => response.json())
